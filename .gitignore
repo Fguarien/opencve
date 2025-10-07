@@ -40,3 +40,11 @@ docker/conf/default.conf.template
 # Ignore content of previews, but not the folder itself
 scheduler/tests/previews/*
 !scheduler/tests/previews/.gitkeep
+# --- Synology & Docker ---
+@eaDir/
+.DS_Store
+docker-data/
+data/
+logs/
+*.log
+# -------------------------
