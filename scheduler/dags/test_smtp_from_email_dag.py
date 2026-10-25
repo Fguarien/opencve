@@ -12,7 +12,7 @@ with DAG(
     email_task = EmailOperator(
         task_id='send_email',
         conn_id='smtp_test',
-        to='frederic.guariento@gmail.com',
+        to='contact@savethemall.eu',
         subject='Test Email',
         html_content='This is a test email.',
     )
